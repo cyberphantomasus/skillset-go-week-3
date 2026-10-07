@@ -1,0 +1,30 @@
+tests/test_audit.py::test_add_valid_expense_succeeds PASSED              [  5%]
+tests/test_audit.py::test_summary_totals PASSED                          [ 11%]
+tests/test_audit.py::test_list_filters_by_category PASSED                [ 17%]
+tests/test_audit.py::test_invalid_amount_rejected[-5] FAILED             [ 23%]
+tests/test_audit.py::test_invalid_amount_rejected[0] FAILED              [ 29%]
+tests/test_audit.py::test_invalid_amount_rejected[1.239] FAILED          [ 35%]
+tests/test_audit.py::test_invalid_amount_rejected[nan] FAILED            [ 41%]
+tests/test_audit.py::test_invalid_amount_rejected[inf] FAILED            [ 47%]
+tests/test_audit.py::test_invalid_amount_rejected[abc] PASSED            [ 52%]
+tests/test_audit.py::test_invalid_date_rejected[2026-13-45] FAILED       [ 58%]
+tests/test_audit.py::test_invalid_date_rejected[yesterday] FAILED        [ 64%]
+tests/test_audit.py::test_ids_unique_after_delete FAILED                 [ 70%]
+tests/test_audit.py::test_category_case_insensitive_summary FAILED       [ 76%]
+tests/test_audit.py::test_corrupted_file_gives_clean_error FAILED        [ 82%]
+tests/test_audit.py::test_corrupted_file_not_overwritten_by_add PASSED   [ 88%]
+tests/test_audit.py::test_delete_missing_id_fails FAILED                 [ 94%]
+tests/test_audit.py::test_blank_description_rejected FAILED              [100%]
+FAILED tests/test_audit.py::test_invalid_amount_rejected[-5]
+FAILED tests/test_audit.py::test_invalid_amount_rejected[0]
+FAILED tests/test_audit.py::test_invalid_amount_rejected[1.239]
+FAILED tests/test_audit.py::test_invalid_amount_rejected[nan]
+FAILED tests/test_audit.py::test_invalid_amount_rejected[inf]
+FAILED tests/test_audit.py::test_invalid_date_rejected[2026-13-45]
+FAILED tests/test_audit.py::test_invalid_date_rejected[yesterday]
+FAILED tests/test_audit.py::test_ids_unique_after_delete
+FAILED tests/test_audit.py::test_category_case_insensitive_summary
+FAILED tests/test_audit.py::test_corrupted_file_gives_clean_error
+FAILED tests/test_audit.py::test_delete_missing_id_fails
+FAILED tests/test_audit.py::test_blank_description_rejected
+========================= 12 failed, 5 passed in 0.95s =========================

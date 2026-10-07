@@ -1,0 +1,5 @@
+Metric,PyTorch,TensorFlow/Keras
+Test accuracy,0.8101,0.7765
+Final train loss,0.35,0.3179
+Training time (s),3.06,5.7
+Trainable parameters,305.0,305.0
